@@ -3,3 +3,24 @@
   width: 100vw;
   height: 100vh;
 }
+
+.ourValuesImage {
+  width: 100%;
+  height: auto;
+  display: block;
+  margin: 1rem auto;
+  border-radius: 12px;
+  object-fit: contain;
+}
+
+.crewImagesRow {
+  display: flex;
+  justify-content: space-between;
+}
+
+.ourCrewImage {
+  width: 24%;
+  height: auto;
+  border-radius: 10px;
+  object-fit: cover;
+}

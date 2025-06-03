@@ -1,10 +1,10 @@
-"use client"
+"use client";
 
-import { usePathname } from 'next/navigation';
-import styles from './Footer.module.css';
+import { usePathname } from "next/navigation";
+import styles from "./Footer.module.css";
 
 export const Footer = () => {
-  const path = usePathname().split('?')[0];
+  const path = usePathname().split("?")[0];
   return (
     <footer className={path !== "/" ? styles.footer : styles.hidden}>
       <div className={styles.footerDescription}>
@@ -24,8 +24,6 @@ export const Footer = () => {
       </div> */}
       {/* Docs for the Link: https://nextjs.org/docs/pages/api-reference/components/link */}
 
-      {/* TASK - React 1 week 1 */}
-      {/* Add a new list item for LINKEDIN */}
       <div className={styles.footerLinks}>
         <h3>Follow us</h3>
         <ul className={styles.footerList}>
@@ -36,10 +34,13 @@ export const Footer = () => {
             <a href="https://instagram.com">Instagram</a>
           </li>
           <li>
-            <a href="https://tiktok.com">Tiktok</a>
+            <a href="https://tiktok.com">TikTok</a>
           </li>
           <li>
             <a href="https://google.com">On the streets at night</a>
+          </li>
+          <li>
+            <a href="https://linkedin.com">LinkedIn</a>
           </li>
           {/* TASK - React 1 week 2 */}
           {/* Create a <SocialMediaItem /> component and replace all of the list items! */}
@@ -50,4 +51,4 @@ export const Footer = () => {
       </div>
     </footer>
   );
-}
+};
