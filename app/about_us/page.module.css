@@ -39,18 +39,27 @@
 .crew {
   display: flex;
   flex-wrap: wrap;
-  padding: 2rem;
+  padding: 0 2rem 0 2rem;
 }
 
 .crew__text {
   font-size: 18px;
   margin-top: 1.5rem;
+  text-align: justify;
 }
 
 .crew__about {
   display: flex;
   width: 100%;
-  padding: 2rem;
+  padding: 2rem 0 2rem 0;
+  gap: 2rem;
+}
+
+.crew__card {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 100%;
 }
 
 .crew__image {
