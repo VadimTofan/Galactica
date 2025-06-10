@@ -156,14 +156,14 @@ button {
 .roundButton {
   padding: unset;
   height: 100px;
-  width: 100px;
   min-height: 100px;
   min-width: 100px;
   line-height: 100px;
   cursor: pointer;
   background-color: white;
   border-radius: 50%;
-  font-size: 8px;
+  color: black;
+  font-size: 12px;
   font-weight: 800;
   letter-spacing: 3px;
 }

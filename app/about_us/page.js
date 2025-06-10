@@ -1,7 +1,8 @@
 import styles from "./page.module.css";
 import { OurValues, OurCrew, OurPartners } from "./aboutUs.js";
+import Home from "../page";
 
-export default Crew = () => {
+export const Crew = () => {
   return (
     <div className="fullBGpicture">
       <main className="mainContent">
@@ -22,3 +23,5 @@ export default Crew = () => {
     </div>
   );
 };
+
+export default Crew;
