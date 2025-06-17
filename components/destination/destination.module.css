@@ -77,8 +77,16 @@
   font-size: small;
 }
 
-.addWishlistItem input, 
+.addWishlistItem input,
 .addWishlistItem select {
   height: 30px;
   margin-block-end: var(--spacing-20);
+}
+
+.wishlistButton {
+  color: black;
+}
+
+.error {
+  color: red;
 }

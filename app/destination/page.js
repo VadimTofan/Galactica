@@ -33,36 +33,13 @@ export const Destinations = () => {
         <section className="card">
           <h2>Wishlist</h2>
           {!selectedPlanets.length ? (
-            <p>No planets in wishlist :(</p>
+            <p>No planets selected:(</p>
           ) : selectedPlanets.length === 1 ? (
-            <p>You have {numberOfPlanets} planet in your wishlist</p>
+            <p>You have selected {numberOfPlanets} planet.</p>
           ) : (
-            <p>You have {numberOfPlanets} planets in your wishlist</p>
+            <p>You have selected {numberOfPlanets} planets.</p>
           )}
-          <b>List coming soon after lesson 3!</b>
-
-          {/* STOP! - this is for week 3!*/}
-          {/* TASK - React 1 week 3 */}
-          {/* Import the AddWishlistItem react component */}
-          {/* <AddWishlistItem /> */}
-          {/* TASK - React 1 week 3 */}
-          {/* Convert the list, so it is using selectedPlanets.map() to display the items  */}
-          {/* Implement the "REMOVE" function */}
-          {/* uncomment the following code snippet: */}
-          {/* 
-          <h3>Your current wishlist</h3>
-          <div className={styles.wishlistList}>
-            <PlanetWishlistItem 
-              name="europa"
-              onRemove={() => removeFromWishlist('europa')}
-              thumbnail="/destination/image-europa.png"
-            />
-            <PlanetWishlistItem 
-              name="europa"
-              onRemove={() => removeFromWishlist('europa')}
-              thumbnail="/destination/image-europa.png"
-            />
-          </div> */}
+          <AddWishlistItem />
         </section>
         <section className="card">
           <h2>Possible destinations</h2>
