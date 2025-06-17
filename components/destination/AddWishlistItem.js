@@ -58,7 +58,7 @@ export const AddWishlistItem = ({ onAddWishlistItem }) => {
       <div className={styles.wishlistList}>
         {wishList.map((item, idx) => (
           <PlanetWishlistItem key={idx} name={item.wishListName} onRemove={() => removeFromWishlist(item)} thumbnail={item.thumbnail} />
-        ))}{" "}
+        ))}
       </div>
     </>
   );

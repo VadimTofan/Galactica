@@ -1,10 +1,7 @@
 "use client";
 
 import { useState } from "react";
-
-import styles from "@/components/destination/destination.module.css";
 import { AddWishlistItem } from "@/components/destination/AddWishlistItem";
-import { PlanetWishlistItem } from "./components/PlanetWishlistItem.jsx";
 import { PlanetCard } from "./components/PlanetCard.jsx";
 
 export const Destinations = () => {
